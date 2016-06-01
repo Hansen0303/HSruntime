@@ -15,6 +15,10 @@
 		60F5E32A1CFD2E76000ACC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F5E3281CFD2E76000ACC35 /* LaunchScreen.storyboard */; };
 		60F5E3351CFD2E77000ACC35 /* HSruntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3341CFD2E77000ACC35 /* HSruntimeTests.m */; };
 		60F5E3401CFD2E77000ACC35 /* HSruntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E33F1CFD2E77000ACC35 /* HSruntimeUITests.m */; };
+		60F5E3561CFD5E72000ACC35 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3551CFD5E72000ACC35 /* Person.m */; };
+		60F5E35D1CFE5D51000ACC35 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E35C1CFE5D51000ACC35 /* MsgViewController.m */; };
+		60F5E3631CFE7A8B000ACC35 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */; };
+		60F5E36C1CFE7B50000ACC35 /* MethodExchangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		60F5E33B1CFD2E77000ACC35 /* HSruntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSruntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F5E33F1CFD2E77000ACC35 /* HSruntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSruntimeUITests.m; sourceTree = "<group>"; };
 		60F5E3411CFD2E77000ACC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F5E3541CFD5E72000ACC35 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		60F5E3551CFD5E72000ACC35 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		60F5E35B1CFE5D51000ACC35 /* MsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		60F5E35C1CFE5D51000ACC35 /* MsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		60F5E3611CFE7A8B000ACC35 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		60F5E36A1CFE7B50000ACC35 /* MethodExchangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodExchangeVC.h; sourceTree = "<group>"; };
+		60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodExchangeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,8 @@
 				60F5E31E1CFD2E76000ACC35 /* AppDelegate.m */,
 				60F5E3201CFD2E76000ACC35 /* ViewController.h */,
 				60F5E3211CFD2E76000ACC35 /* ViewController.m */,
+				60F5E35A1CFE5CAF000ACC35 /* MethodExchange */,
+				60F5E3531CFD5E2A000ACC35 /* Message */,
 				60F5E3231CFD2E76000ACC35 /* Main.storyboard */,
 				60F5E3261CFD2E76000ACC35 /* Assets.xcassets */,
 				60F5E3281CFD2E76000ACC35 /* LaunchScreen.storyboard */,
@@ -138,6 +152,28 @@
 				60F5E3411CFD2E77000ACC35 /* Info.plist */,
 			);
 			path = HSruntimeUITests;
+			sourceTree = "<group>";
+		};
+		60F5E3531CFD5E2A000ACC35 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				60F5E35B1CFE5D51000ACC35 /* MsgViewController.h */,
+				60F5E35C1CFE5D51000ACC35 /* MsgViewController.m */,
+				60F5E3541CFD5E72000ACC35 /* Person.h */,
+				60F5E3551CFD5E72000ACC35 /* Person.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		60F5E35A1CFE5CAF000ACC35 /* MethodExchange */ = {
+			isa = PBXGroup;
+			children = (
+				60F5E3611CFE7A8B000ACC35 /* UIImage+Image.h */,
+				60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */,
+				60F5E36A1CFE7B50000ACC35 /* MethodExchangeVC.h */,
+				60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */,
+			);
+			path = MethodExchange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +308,10 @@
 			files = (
 				60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */,
 				60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */,
+				60F5E3561CFD5E72000ACC35 /* Person.m in Sources */,
+				60F5E3631CFE7A8B000ACC35 /* UIImage+Image.m in Sources */,
+				60F5E36C1CFE7B50000ACC35 /* MethodExchangeVC.m in Sources */,
+				60F5E35D1CFE5D51000ACC35 /* MsgViewController.m in Sources */,
 				60F5E31C1CFD2E76000ACC35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = HSruntime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.HSruntime";
@@ -424,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = HSruntime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.HSruntime";
