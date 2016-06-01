@@ -1,5 +1,5 @@
 //
-//  MethodExchangeVC.h
+//  UIViewController+Swizzle.h
 //  HSruntime
 //
 //  Created by hansen on 16/6/1.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MethodExchangeVC : UIViewController
-
+@interface UIViewController (Swizzle)
 
 @end

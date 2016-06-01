@@ -19,6 +19,8 @@
 		60F5E35D1CFE5D51000ACC35 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E35C1CFE5D51000ACC35 /* MsgViewController.m */; };
 		60F5E3631CFE7A8B000ACC35 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */; };
 		60F5E36C1CFE7B50000ACC35 /* MethodExchangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */; };
+		60F5E36F1CFEA605000ACC35 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E36E1CFEA605000ACC35 /* NSObject+Swizzle.m */; };
+		60F5E3751CFEBF2A000ACC35 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3741CFEBF2A000ACC35 /* UIViewController+Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		60F5E36A1CFE7B50000ACC35 /* MethodExchangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodExchangeVC.h; sourceTree = "<group>"; };
 		60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodExchangeVC.m; sourceTree = "<group>"; };
+		60F5E36D1CFEA605000ACC35 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		60F5E36E1CFEA605000ACC35 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		60F5E3731CFEBF2A000ACC35 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		60F5E3741CFEBF2A000ACC35 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,10 +174,14 @@
 		60F5E35A1CFE5CAF000ACC35 /* MethodExchange */ = {
 			isa = PBXGroup;
 			children = (
-				60F5E3611CFE7A8B000ACC35 /* UIImage+Image.h */,
-				60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */,
 				60F5E36A1CFE7B50000ACC35 /* MethodExchangeVC.h */,
 				60F5E36B1CFE7B50000ACC35 /* MethodExchangeVC.m */,
+				60F5E3611CFE7A8B000ACC35 /* UIImage+Image.h */,
+				60F5E3621CFE7A8B000ACC35 /* UIImage+Image.m */,
+				60F5E36D1CFEA605000ACC35 /* NSObject+Swizzle.h */,
+				60F5E36E1CFEA605000ACC35 /* NSObject+Swizzle.m */,
+				60F5E3731CFEBF2A000ACC35 /* UIViewController+Swizzle.h */,
+				60F5E3741CFEBF2A000ACC35 /* UIViewController+Swizzle.m */,
 			);
 			path = MethodExchange;
 			sourceTree = "<group>";
@@ -306,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F5E36F1CFEA605000ACC35 /* NSObject+Swizzle.m in Sources */,
+				60F5E3751CFEBF2A000ACC35 /* UIViewController+Swizzle.m in Sources */,
 				60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */,
 				60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */,
 				60F5E3561CFD5E72000ACC35 /* Person.m in Sources */,

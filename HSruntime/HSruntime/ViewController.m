@@ -11,6 +11,7 @@
 #import "MsgViewController.h"
 
 
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 
@@ -105,7 +106,7 @@
         
     }else if (indexPath.row == 1)
     {
-        MethodExchangeVC * method = [[MethodExchangeVC alloc] init];
+        MsgViewController * method = [[MsgViewController alloc] init];
         method.title = self.listData[indexPath.row];
         [self.navigationController pushViewController:method animated:YES];
         

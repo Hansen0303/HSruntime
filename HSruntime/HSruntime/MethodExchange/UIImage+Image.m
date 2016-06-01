@@ -57,15 +57,12 @@
     // IMP  方法实现
     
     
-    
-    
     //imageNamed
     //Class: 获取哪个类的方法
     //SEL : 获取方法编号 根据SEL就能去对应的类找方法
     Method imageNamed =  class_getClassMethod([UIImage class], @selector(imageNamed:));
     
     Method hs_imageNamed = class_getClassMethod([UIImage class], @selector(hs_imageNamed:));
-    
     
     
     
