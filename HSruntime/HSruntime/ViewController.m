@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "MethodExchangeVC.h"
 #import "MsgViewController.h"
-
+#import "DynamicAddMethodVC.h"
 
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -27,7 +27,7 @@
 - (NSMutableArray *)listData
 {
     if (_listData == nil) {
-        _listData = [NSMutableArray arrayWithObjects:@"message",@"MethodExchange", nil];
+        _listData = [NSMutableArray arrayWithObjects:@"message",@"MethodExchange",@"MethodResolution", nil];
         
     }
     
@@ -104,13 +104,23 @@
         msg.title = self.listData[indexPath.row];
         [self.navigationController pushViewController:msg animated:YES];
         
-    }else if (indexPath.row == 1)
+    }
+    else if (indexPath.row == 1)
     {
         MsgViewController * method = [[MsgViewController alloc] init];
         method.title = self.listData[indexPath.row];
         [self.navigationController pushViewController:method animated:YES];
         
     }
+    else if (indexPath.row == 2)
+    {
+        
+        DynamicAddMethodVC * addMethod = [[DynamicAddMethodVC alloc] init];
+        addMethod.title = self.listData[indexPath.row];
+        [self.navigationController pushViewController:addMethod animated:YES];
+        
+    }
+    
     
     
     
