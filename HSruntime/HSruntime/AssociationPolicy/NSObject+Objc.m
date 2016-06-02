@@ -18,10 +18,10 @@
     //添加属性,跟对象
     //和某个对象产生关联 添加属性
     //Object : 给哪个对象添加属性
-    //key : 属性名 根据KEY获取关联的对象
+    //key : 属性名 根据KEY获取关联的对象  void * == id
     //value: 关联的值
-    //policy
-//    objc_setAssociatedObject(<#id object#>, <#const void *key#>, <#id value#>, <#objc_AssociationPolicy policy#>)
+    //policy: 策略
+    objc_setAssociatedObject(self, @"HSname", name, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
 }
 
@@ -29,7 +29,7 @@
 {
     
     
-    return @"";
+    return objc_getAssociatedObject(self, @"HSname");
 }
 
 

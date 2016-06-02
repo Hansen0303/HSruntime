@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601478B81CFFCCBA0021051D /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 601478B71CFFCCBA0021051D /* status.plist */; };
+		601478BB1CFFCCF10021051D /* DicModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478BA1CFFCCF10021051D /* DicModelViewController.m */; };
+		601478BE1CFFCE060021051D /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478BD1CFFCE060021051D /* StatusModel.m */; };
+		601478C11CFFCEC10021051D /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478C01CFFCEC10021051D /* NSObject+Property.m */; };
 		60F5E31C1CFD2E76000ACC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E31B1CFD2E76000ACC35 /* main.m */; };
 		60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E31E1CFD2E76000ACC35 /* AppDelegate.m */; };
 		60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3211CFD2E76000ACC35 /* ViewController.m */; };
@@ -47,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601478B71CFFCCBA0021051D /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		601478B91CFFCCF10021051D /* DicModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicModelViewController.h; sourceTree = "<group>"; };
+		601478BA1CFFCCF10021051D /* DicModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicModelViewController.m; sourceTree = "<group>"; };
+		601478BC1CFFCE060021051D /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
+		601478BD1CFFCE060021051D /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
+		601478BF1CFFCEC10021051D /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		601478C01CFFCEC10021051D /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		60F5E3171CFD2E76000ACC35 /* HSruntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSruntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F5E31B1CFD2E76000ACC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60F5E31D1CFD2E76000ACC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +125,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601478B61CFFCC100021051D /* Dict-Model */ = {
+			isa = PBXGroup;
+			children = (
+				601478B91CFFCCF10021051D /* DicModelViewController.h */,
+				601478BA1CFFCCF10021051D /* DicModelViewController.m */,
+				601478BC1CFFCE060021051D /* StatusModel.h */,
+				601478BD1CFFCE060021051D /* StatusModel.m */,
+				601478BF1CFFCEC10021051D /* NSObject+Property.h */,
+				601478C01CFFCEC10021051D /* NSObject+Property.m */,
+			);
+			path = "Dict-Model";
+			sourceTree = "<group>";
+		};
 		60F5E30E1CFD2E76000ACC35 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +165,7 @@
 				60F5E31E1CFD2E76000ACC35 /* AppDelegate.m */,
 				60F5E3201CFD2E76000ACC35 /* ViewController.h */,
 				60F5E3211CFD2E76000ACC35 /* ViewController.m */,
+				601478B61CFFCC100021051D /* Dict-Model */,
 				60F5E38D1CFF2380000ACC35 /* AssociationPolicy */,
 				60F5E3801CFEE108000ACC35 /* DynamicAddMethod */,
 				60F5E35A1CFE5CAF000ACC35 /* MethodExchange */,
@@ -149,6 +174,7 @@
 				60F5E3261CFD2E76000ACC35 /* Assets.xcassets */,
 				60F5E3281CFD2E76000ACC35 /* LaunchScreen.storyboard */,
 				60F5E32B1CFD2E76000ACC35 /* Info.plist */,
+				601478B71CFFCCBA0021051D /* status.plist */,
 				60F5E31A1CFD2E76000ACC35 /* Supporting Files */,
 			);
 			path = HSruntime;
@@ -337,6 +363,7 @@
 			files = (
 				60F5E32A1CFD2E76000ACC35 /* LaunchScreen.storyboard in Resources */,
 				60F5E3271CFD2E76000ACC35 /* Assets.xcassets in Resources */,
+				601478B81CFFCCBA0021051D /* status.plist in Resources */,
 				60F5E3251CFD2E76000ACC35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,9 +392,12 @@
 				60F5E38C1CFEF592000ACC35 /* Bird.m in Sources */,
 				60F5E3861CFEE3EB000ACC35 /* Cat.m in Sources */,
 				60F5E36F1CFEA605000ACC35 /* NSObject+Swizzle.m in Sources */,
+				601478BB1CFFCCF10021051D /* DicModelViewController.m in Sources */,
+				601478C11CFFCEC10021051D /* NSObject+Property.m in Sources */,
 				60F5E3751CFEBF2A000ACC35 /* UIViewController+Swizzle.m in Sources */,
 				60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */,
 				60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */,
+				601478BE1CFFCE060021051D /* StatusModel.m in Sources */,
 				60F5E3901CFF23BB000ACC35 /* AssociationViewController.m in Sources */,
 				60F5E3561CFD5E72000ACC35 /* Person.m in Sources */,
 				60F5E3891CFEEFDB000ACC35 /* Dog.m in Sources */,
@@ -602,6 +632,7 @@
 				60F5E3461CFD2E77000ACC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F5E3471CFD2E77000ACC35 /* Build configuration list for PBXNativeTarget "HSruntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +641,7 @@
 				60F5E3491CFD2E77000ACC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F5E34A1CFD2E77000ACC35 /* Build configuration list for PBXNativeTarget "HSruntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +650,7 @@
 				60F5E34C1CFD2E77000ACC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

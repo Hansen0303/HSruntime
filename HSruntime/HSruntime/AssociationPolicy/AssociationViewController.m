@@ -8,6 +8,28 @@
 
 #import "AssociationViewController.h"
 
+#import "NSObject+Objc.h"
+
 @implementation AssociationViewController
+
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    
+    
+    
+    NSObject * obj = [[NSObject alloc] init];
+    obj.name = @"123";
+    
+    NSLog(@"%@",obj.name);
+    
+    
+    
+}
+
+
 
 @end

@@ -10,7 +10,8 @@
 #import "MethodExchangeVC.h"
 #import "MsgViewController.h"
 #import "DynamicAddMethodVC.h"
-
+#import "AssociationViewController.h"
+#import "DicModelViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -27,7 +28,7 @@
 - (NSMutableArray *)listData
 {
     if (_listData == nil) {
-        _listData = [NSMutableArray arrayWithObjects:@"message",@"MethodExchange",@"MethodResolution", nil];
+        _listData = [NSMutableArray arrayWithObjects:@"message",@"MethodExchange",@"MethodResolution",@"AssociationPolicy",@"Dict-Model", nil];
         
     }
     
@@ -118,6 +119,21 @@
         DynamicAddMethodVC * addMethod = [[DynamicAddMethodVC alloc] init];
         addMethod.title = self.listData[indexPath.row];
         [self.navigationController pushViewController:addMethod animated:YES];
+        
+    }
+    else if (indexPath.row == 3)
+    {
+        AssociationViewController * asVC = [[AssociationViewController alloc] init];
+        asVC.title = self.listData[indexPath.row];
+        [self.navigationController pushViewController:asVC animated:YES];
+    
+        
+    }
+    else if (indexPath.row == 4)
+    {
+        DicModelViewController * dicModel = [[DicModelViewController alloc] init];
+        dicModel.title = self.listData[indexPath.row];
+        [self.navigationController pushViewController:dicModel animated:YES];
         
     }
     
