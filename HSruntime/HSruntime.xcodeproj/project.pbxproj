@@ -25,6 +25,8 @@
 		60F5E3861CFEE3EB000ACC35 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3851CFEE3EB000ACC35 /* Cat.m */; };
 		60F5E3891CFEEFDB000ACC35 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3881CFEEFDB000ACC35 /* Dog.m */; };
 		60F5E38C1CFEF592000ACC35 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E38B1CFEF592000ACC35 /* Bird.m */; };
+		60F5E3901CFF23BB000ACC35 /* AssociationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E38F1CFF23BB000ACC35 /* AssociationViewController.m */; };
+		60F5E3931CFF25CF000ACC35 /* NSObject+Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3921CFF25CF000ACC35 /* NSObject+Objc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		60F5E3881CFEEFDB000ACC35 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		60F5E38A1CFEF592000ACC35 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		60F5E38B1CFEF592000ACC35 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		60F5E38E1CFF23BB000ACC35 /* AssociationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociationViewController.h; sourceTree = "<group>"; };
+		60F5E38F1CFF23BB000ACC35 /* AssociationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociationViewController.m; sourceTree = "<group>"; };
+		60F5E3911CFF25CF000ACC35 /* NSObject+Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Objc.h"; sourceTree = "<group>"; };
+		60F5E3921CFF25CF000ACC35 /* NSObject+Objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Objc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 				60F5E31E1CFD2E76000ACC35 /* AppDelegate.m */,
 				60F5E3201CFD2E76000ACC35 /* ViewController.h */,
 				60F5E3211CFD2E76000ACC35 /* ViewController.m */,
+				60F5E38D1CFF2380000ACC35 /* AssociationPolicy */,
 				60F5E3801CFEE108000ACC35 /* DynamicAddMethod */,
 				60F5E35A1CFE5CAF000ACC35 /* MethodExchange */,
 				60F5E3531CFD5E2A000ACC35 /* Message */,
@@ -212,6 +219,17 @@
 				60F5E38B1CFEF592000ACC35 /* Bird.m */,
 			);
 			path = DynamicAddMethod;
+			sourceTree = "<group>";
+		};
+		60F5E38D1CFF2380000ACC35 /* AssociationPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				60F5E38E1CFF23BB000ACC35 /* AssociationViewController.h */,
+				60F5E38F1CFF23BB000ACC35 /* AssociationViewController.m */,
+				60F5E3911CFF25CF000ACC35 /* NSObject+Objc.h */,
+				60F5E3921CFF25CF000ACC35 /* NSObject+Objc.m */,
+			);
+			path = AssociationPolicy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,12 +368,14 @@
 				60F5E3751CFEBF2A000ACC35 /* UIViewController+Swizzle.m in Sources */,
 				60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */,
 				60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */,
+				60F5E3901CFF23BB000ACC35 /* AssociationViewController.m in Sources */,
 				60F5E3561CFD5E72000ACC35 /* Person.m in Sources */,
 				60F5E3891CFEEFDB000ACC35 /* Dog.m in Sources */,
 				60F5E3831CFEE1EB000ACC35 /* DynamicAddMethodVC.m in Sources */,
 				60F5E3631CFE7A8B000ACC35 /* UIImage+Image.m in Sources */,
 				60F5E36C1CFE7B50000ACC35 /* MethodExchangeVC.m in Sources */,
 				60F5E35D1CFE5D51000ACC35 /* MsgViewController.m in Sources */,
+				60F5E3931CFF25CF000ACC35 /* NSObject+Objc.m in Sources */,
 				60F5E31C1CFD2E76000ACC35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
