@@ -40,6 +40,12 @@
             code = [NSString stringWithFormat:@"@property (nonatomic,strong) NSDictionary *%@;", propertyName];
 
         }
+        else if ([value isKindOfClass:NSClassFromString(@"__NSCFBoolean")])
+        {
+            code = [NSString stringWithFormat:@"@property (nonatomic,assign) BOOL %@;", propertyName];
+
+            
+        }
         [strM appendFormat:@"\n%@\n",code];
 
     }];

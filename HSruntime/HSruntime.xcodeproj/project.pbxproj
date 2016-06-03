@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		601478B81CFFCCBA0021051D /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 601478B71CFFCCBA0021051D /* status.plist */; };
 		601478BB1CFFCCF10021051D /* DicModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478BA1CFFCCF10021051D /* DicModelViewController.m */; };
-		601478BE1CFFCE060021051D /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478BD1CFFCE060021051D /* StatusModel.m */; };
-		601478C11CFFCEC10021051D /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478C01CFFCEC10021051D /* NSObject+Property.m */; };
+		601478D81D00396F0021051D /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478CD1D00396F0021051D /* NSObject+Property.m */; };
+		601478D91D00396F0021051D /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478CF1D00396F0021051D /* StatusModel.m */; };
+		601478DA1D00396F0021051D /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478D21D00396F0021051D /* NSObject+Model.m */; };
+		601478DB1D00396F0021051D /* RuntimeStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478D41D00396F0021051D /* RuntimeStatusModel.m */; };
+		601478DC1D00396F0021051D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478D71D00396F0021051D /* User.m */; };
+		601478DF1D003A270021051D /* RuntimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478DE1D003A270021051D /* RuntimeModel.m */; };
+		601478E51D003AAE0021051D /* NSObject+Model2.m in Sources */ = {isa = PBXBuildFile; fileRef = 601478E41D003AAE0021051D /* NSObject+Model2.m */; };
 		60F5E31C1CFD2E76000ACC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E31B1CFD2E76000ACC35 /* main.m */; };
 		60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E31E1CFD2E76000ACC35 /* AppDelegate.m */; };
 		60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E3211CFD2E76000ACC35 /* ViewController.m */; };
@@ -54,10 +59,20 @@
 		601478B71CFFCCBA0021051D /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
 		601478B91CFFCCF10021051D /* DicModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicModelViewController.h; sourceTree = "<group>"; };
 		601478BA1CFFCCF10021051D /* DicModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicModelViewController.m; sourceTree = "<group>"; };
-		601478BC1CFFCE060021051D /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
-		601478BD1CFFCE060021051D /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
-		601478BF1CFFCEC10021051D /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
-		601478C01CFFCEC10021051D /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		601478CC1D00396F0021051D /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		601478CD1D00396F0021051D /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		601478CE1D00396F0021051D /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
+		601478CF1D00396F0021051D /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
+		601478D11D00396F0021051D /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		601478D21D00396F0021051D /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		601478D31D00396F0021051D /* RuntimeStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeStatusModel.h; sourceTree = "<group>"; };
+		601478D41D00396F0021051D /* RuntimeStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeStatusModel.m; sourceTree = "<group>"; };
+		601478D61D00396F0021051D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		601478D71D00396F0021051D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		601478DD1D003A270021051D /* RuntimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeModel.h; sourceTree = "<group>"; };
+		601478DE1D003A270021051D /* RuntimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeModel.m; sourceTree = "<group>"; };
+		601478E31D003AAE0021051D /* NSObject+Model2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model2.h"; sourceTree = "<group>"; };
+		601478E41D003AAE0021051D /* NSObject+Model2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model2.m"; sourceTree = "<group>"; };
 		60F5E3171CFD2E76000ACC35 /* HSruntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSruntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F5E31B1CFD2E76000ACC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60F5E31D1CFD2E76000ACC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,12 +145,46 @@
 			children = (
 				601478B91CFFCCF10021051D /* DicModelViewController.h */,
 				601478BA1CFFCCF10021051D /* DicModelViewController.m */,
-				601478BC1CFFCE060021051D /* StatusModel.h */,
-				601478BD1CFFCE060021051D /* StatusModel.m */,
-				601478BF1CFFCEC10021051D /* NSObject+Property.h */,
-				601478C01CFFCEC10021051D /* NSObject+Property.m */,
+				601478CB1D00396F0021051D /* KCV-Model */,
+				601478D01D00396F0021051D /* Runtime-Model1 */,
+				601478D51D00396F0021051D /* Runtime-Model2 */,
 			);
 			path = "Dict-Model";
+			sourceTree = "<group>";
+		};
+		601478CB1D00396F0021051D /* KCV-Model */ = {
+			isa = PBXGroup;
+			children = (
+				601478CC1D00396F0021051D /* NSObject+Property.h */,
+				601478CD1D00396F0021051D /* NSObject+Property.m */,
+				601478CE1D00396F0021051D /* StatusModel.h */,
+				601478CF1D00396F0021051D /* StatusModel.m */,
+			);
+			path = "KCV-Model";
+			sourceTree = "<group>";
+		};
+		601478D01D00396F0021051D /* Runtime-Model1 */ = {
+			isa = PBXGroup;
+			children = (
+				601478D11D00396F0021051D /* NSObject+Model.h */,
+				601478D21D00396F0021051D /* NSObject+Model.m */,
+				601478D31D00396F0021051D /* RuntimeStatusModel.h */,
+				601478D41D00396F0021051D /* RuntimeStatusModel.m */,
+			);
+			path = "Runtime-Model1";
+			sourceTree = "<group>";
+		};
+		601478D51D00396F0021051D /* Runtime-Model2 */ = {
+			isa = PBXGroup;
+			children = (
+				601478D61D00396F0021051D /* User.h */,
+				601478D71D00396F0021051D /* User.m */,
+				601478DD1D003A270021051D /* RuntimeModel.h */,
+				601478DE1D003A270021051D /* RuntimeModel.m */,
+				601478E31D003AAE0021051D /* NSObject+Model2.h */,
+				601478E41D003AAE0021051D /* NSObject+Model2.m */,
+			);
+			path = "Runtime-Model2";
 			sourceTree = "<group>";
 		};
 		60F5E30E1CFD2E76000ACC35 = {
@@ -390,18 +439,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F5E38C1CFEF592000ACC35 /* Bird.m in Sources */,
+				601478DA1D00396F0021051D /* NSObject+Model.m in Sources */,
 				60F5E3861CFEE3EB000ACC35 /* Cat.m in Sources */,
 				60F5E36F1CFEA605000ACC35 /* NSObject+Swizzle.m in Sources */,
 				601478BB1CFFCCF10021051D /* DicModelViewController.m in Sources */,
-				601478C11CFFCEC10021051D /* NSObject+Property.m in Sources */,
 				60F5E3751CFEBF2A000ACC35 /* UIViewController+Swizzle.m in Sources */,
 				60F5E3221CFD2E76000ACC35 /* ViewController.m in Sources */,
+				601478D81D00396F0021051D /* NSObject+Property.m in Sources */,
+				601478DC1D00396F0021051D /* User.m in Sources */,
+				601478DB1D00396F0021051D /* RuntimeStatusModel.m in Sources */,
+				601478D91D00396F0021051D /* StatusModel.m in Sources */,
 				60F5E31F1CFD2E76000ACC35 /* AppDelegate.m in Sources */,
-				601478BE1CFFCE060021051D /* StatusModel.m in Sources */,
+				601478E51D003AAE0021051D /* NSObject+Model2.m in Sources */,
 				60F5E3901CFF23BB000ACC35 /* AssociationViewController.m in Sources */,
 				60F5E3561CFD5E72000ACC35 /* Person.m in Sources */,
 				60F5E3891CFEEFDB000ACC35 /* Dog.m in Sources */,
 				60F5E3831CFEE1EB000ACC35 /* DynamicAddMethodVC.m in Sources */,
+				601478DF1D003A270021051D /* RuntimeModel.m in Sources */,
 				60F5E3631CFE7A8B000ACC35 /* UIImage+Image.m in Sources */,
 				60F5E36C1CFE7B50000ACC35 /* MethodExchangeVC.m in Sources */,
 				60F5E35D1CFE5D51000ACC35 /* MsgViewController.m in Sources */,

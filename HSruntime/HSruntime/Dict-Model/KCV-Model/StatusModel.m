@@ -11,11 +11,14 @@
 @implementation StatusModel
 
 
+//KVC转模型
+//遍历字典中所有的key 去模型中查找有没有对应的属性名
+
+
 + (StatusModel *)statusWithDict:(NSDictionary *)dict
 {
     StatusModel * status = [[self alloc] init];
     
-    //KVC
     [status setValuesForKeysWithDictionary:dict];
     
     return status;
